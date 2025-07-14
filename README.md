@@ -16,32 +16,6 @@ Este projeto é uma aplicação Java desenvolvida com foco nos princípios de **
 
 ---
 
-## 🗂 Estrutura do Projeto
-
-Case_POO-main/
-├── pom.xml # Configuração Maven
-├── mysql-connector-java-8.0.25.jar # Driver JDBC
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── br/com/fecaf/
-│ │ ├── App.java # Classe principal
-│ │ ├── Model/Livro.java # Entidade Livro
-│ │ ├── Repository/LivroRepository.java # Acesso ao banco
-│ │ ├── Service/Livro_Service.java # Regras de negócio
-│ │ └── RestController/LivroRestController.java # API REST
-│ ├── resources/
-│ │ ├── application.properties # Configuração do BD
-│ │ ├── templates/
-│ │ │ ├── index.html # Página inicial
-│ │ │ ├── css/style.css # Estilo visual
-│ │ │ ├── js/script.js # Lógica do frontend
-│ │ │ └── img/Capa_Livro.jpg # Imagem decorativa
-│ └── Database/codigo_sql.sql # Script SQL do banco
-
-
----
-
 ## ⚙️ Como Executar o Projeto
 
 ### 1. Pré-requisitos
