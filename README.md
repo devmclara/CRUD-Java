@@ -50,6 +50,8 @@ bash
 mvn clean install
 mvn exec:java
 
+---
+### 3. Funcionalidades 
 ✅ Funcionalidades
 📖 Cadastrar novo livro
 
